@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+th {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+th[scope="row"] {
+    width: 80px; 
+}
+
+.break, .lunch, .activity {
+    font-weight: bold;
+    background: #eee;
+}
+
+.teacher {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
